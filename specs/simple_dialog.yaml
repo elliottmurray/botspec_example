@@ -1,0 +1,14 @@
+description: "simple specs tests"  
+
+dialogs:
+
+  - what: "simple name test"
+    dialog:
+      - "Hi I would like to know your name"
+      - "What First Name?"
+      - "Dave"
+      - "What is Last name?"
+      - "Smith"
+      - "are you sure about your name?"
+      - "yes"
+      - "Hello this is a response from function : Dave - Smith"
