@@ -1,12 +1,12 @@
 require "rspec/core/rake_task"
 require "botspec/tasks/verification_task"
 
-RSpec::Core::RakeTask.new(:spec)
+Botspec::VerificationTask.new('nibby') do | botspecs, args |
+  puts botspecs
+  puts args
+  #:dialogs_path  'spec/simple_dialog.yaml'
 
-task :default => :spec
 
-Botspec::VerificationTask.new('nibby') do | botspecs |
-#  name 'chatbot'
+ # name 'chatbot'
+ # dialog_path 'spec/simple_dialog.yaml'
 end
-
-
