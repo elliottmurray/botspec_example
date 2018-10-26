@@ -5,12 +5,7 @@ RSpec::Core::RakeTask.new(:spec)
 
 task :default => :spec
 
-Botspec::VerificationTask.new('nibby') do | botspecs, args |
-  puts botspecs
-  puts args
-  #:dialogs_path  'spec/simple_dialog.yaml'
+Botspec::VerificationTask.new('nibby', 'specs/simple_dialog.yaml') do | botspecs, args |
+  puts 'running specs'
 
-
- # name 'chatbot'
- # dialog_path 'spec/simple_dialog.yaml'
 end
