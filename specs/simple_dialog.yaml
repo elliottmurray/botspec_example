@@ -1,14 +1,15 @@
-description: "simple specs tests"  
+description: "simple specs tests"
 
 dialogs:
 
-  - what: "simple name test"
+  - what: "simple flower test"
     dialog:
-      - "Hi I would like to know your name"
-      - "What First Name?"
-      - "Dave"
-      - "What is Last name?"
-      - "Smith"
-      - "are you sure about your name?"
+      - "I would like to order some flowers"
+      - "What type of flowers would you like to order?"
+      - "Tulips"
+      - "What day do you want the Tulips to be picked up?"
+      - "20th December"
+      - "Pick up the Tulips at what time on 2018-12-20?"
+      - "noon"
+      - "Okay, your Tulips will be ready for pickup by 12:00 on 2018-12-20.  Does this sound okay?"
       - "yes"
-      - "Hello this is a response from function : Dave - Smith"
