@@ -1,7 +1,6 @@
 description: "simple specs tests"
 
 dialogs:
-
   - what: "simple flower test"
     dialog:
       - "I would like to order some flowers"
@@ -12,4 +11,16 @@ dialogs:
       - "Pick up the Tulips at what time on 2018-12-20?"
       - "noon"
       - "Okay, your Tulips will be ready for pickup by 12:00 on 2018-12-20.  Does this sound okay?"
+      - "yes"
+
+  - what: "simple flower test2"
+    dialog:
+      - "I would like to order some more flowers"
+      - "What type of flowers would you like to order?"
+      - "Roses"
+      - "What day do you want the Roses to be picked up?"
+      - "25th December"
+      - "Pick up the ffRoses at what time on 2018-12-25?"
+      - "noon"
+      - "Okay, your Roses will be ready for pickup by 12:00 on 2018-12-25.  Does this sound okay?"
       - "yes"
