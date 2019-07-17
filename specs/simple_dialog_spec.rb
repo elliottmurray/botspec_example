@@ -46,11 +46,11 @@ dialogs "simple ordering flowers" do
     user "Monday"
     chatbot "What day do you want the Monday to be picked up?"
 
-    user "Monday"
+    user "20th December"
     chatbot "Pick up the Monday at what time on .*-12-20?"
 
     user "noon"
-    chatbot "Okay, your Trucks will be ready for pickup by 12:00 on .*-12-20.  Does this sound okay?"
+    chatbot "Okay, your Monday will be ready for pickup by 12:00 on .*-12-20.  Does this sound okay?"
   end
 
 end 
