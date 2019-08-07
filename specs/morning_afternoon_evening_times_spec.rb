@@ -28,7 +28,10 @@ end
 
 dialogs "shared examples ordering different flower types" do
   it_should_behave_like "Order flowers at day time range", [["morning", "MO"], 
+                                                            ["early morning", "MO"], 
                                                             ["afternoon", "AF"], 
-                                                            ["evening", "EV"]]
+                                                            ["evening", "EV"],
+                                                            ["late Evening", "EV"],
+                                                            ["Night", "NI"]]
 end
 
