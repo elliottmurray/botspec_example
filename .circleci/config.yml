@@ -2,7 +2,7 @@
 #
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -14,6 +14,10 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
 
     working_directory: ~/repo
+
+    branches: 
+      only: 
+        - using_script_dsl_example
 
     steps:
       - checkout
