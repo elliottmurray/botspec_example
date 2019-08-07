@@ -17,7 +17,7 @@ jobs:
 
     branches: 
       only: 
-        - using_script_dsl_example
+        - "using_script_dsl_example"
 
     steps:
       - checkout
