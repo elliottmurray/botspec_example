@@ -49,7 +49,7 @@ jobs:
 
             bundle exec rspec \
               --format html \
-              --out /tmp/test-results/rspec.xml \
+              --out /tmp/test-results/rspec.html \
               $TEST_FILES
 
       # collect reports
